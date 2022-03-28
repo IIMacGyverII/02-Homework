@@ -56,9 +56,23 @@
 .rightcolumn {
     flex: display;
     padding: 10px;
+    border: 2px solid black;
+    width: 1500px;
     /* border: 3px solid rgb(248, 19, 19); */
 }
 
 .rightcolumnflexbox {
-    
+    margin-bottom: 3%;
+}
+
+.rightworkcontent {
+    width: 100%;
+    margin-top
+ 
+}
+
+#rightworkcontent2 {
+    flex-direction: row;
+    width: 49%;
+    margin-top
 }

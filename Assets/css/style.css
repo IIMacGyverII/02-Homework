@@ -2,25 +2,64 @@
 
 }
 
-.head {
-    Color:rgb(15, 195, 250);
-    background-color: black;
-    font-size: 27pt;
-    text-align: left;
+header {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: right; */
+    /* padding: -10px; */
+    background-color: rgb(119, 124, 150);
+    flex-direction: column;
+    /* max-height: 10px; */
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 100vw;
 }
 
-.blank-banner {
-    background-color: black;
-    height:50px;
+a[href*='.css']::after {
+    content: '📝';
+    display: inline-block;
+    margin-left: 3px;
+}
+
+nav ul {
+    display: contents;
+    justify-content: left;
+    min-width: 300px;
+    
+    
+}
+  
+nav a {
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 10px 0px 0px;
+}
+
+nav a:hover {
+    color: var(--light);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+    Font-size: 24pt;
 }
 
 .head-img {
     flex-wrap: wrap;
-    width: 100%;
+    width: 100vw;
     /* height: 300px; */
 }
 
-.pageflexbox {
+#pageflexbox {
     display:flex;
     flex-wrap: stretch;
     justify-content: left;
@@ -38,7 +77,6 @@
     border-right: 3px solid black;
     color: black;
     background-color: rgb(255, 255, 255);
-    flex-direction; columns: 1;
     height: 500px;
     padding: 0px 10px 10px 10px;
     width: 200px;
@@ -50,14 +88,20 @@
 
 .leftcolumnflexbox h2 {
     font-size: 27pt;
-    margin-top:150px;
+    margin-top: 250px;
+}
+
+.leftcolumnflexbox h3 {
+    font-size: 27pt;
+    margin-top: 500px;
+    padding: 100;
 }
 
 .rightcolumn {
     flex: display;
     padding: 10px;
-    border: 2px solid black;
-    width: 1500px;
+    /* border: 2px solid black; */
+    width: 1000px;
     /* border: 3px solid rgb(248, 19, 19); */
 }
 
@@ -67,12 +111,10 @@
 
 .rightworkcontent {
     width: 100%;
-    margin-top
- 
+    /* border: 2px solid black; */
 }
 
 #rightworkcontent2 {
     flex-direction: row;
-    width: 49%;
-    margin-top
+    width: 49.8%;
 }

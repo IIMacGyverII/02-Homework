@@ -73,7 +73,7 @@ h3 {
 
 .leftcolumnflexbox {
     flex-wrap:wrap;
-    /* border: 2px 2px 0px 0px solid rgb(5, 5, 5); */
+    border: 2px 2px 0px 0px solid rgb(5, 5, 5);
     border-right: 3px solid black;
     color: black;
     background-color: rgb(255, 255, 255);
@@ -111,10 +111,11 @@ h3 {
 
 .rightworkcontent {
     width: 100%;
-    /* border: 2px solid black; */
+    /* border-top: 2px solid black; */
 }
 
 #rightworkcontent2 {
     flex-direction: row;
     width: 49.8%;
+    /* border-bottom: 4px solid black; */
 }

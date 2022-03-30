@@ -1,5 +1,5 @@
 :root {
-
+    max-width: 1500px;
 }
 
 header {
@@ -55,7 +55,7 @@ h3 {
 
 .head-img {
     flex-wrap: wrap;
-    width: 100vw;
+    /* width: 100%; */
     /* height: 300px; */
 }
 
@@ -69,12 +69,13 @@ h3 {
 .leftcolumn {
     flex-wrap:wrap;
     margin-left: 10px;
+    border-right: 3px solid black;
 }
 
 .leftcolumnflexbox {
     flex-wrap:wrap;
     border: 2px 2px 0px 0px solid rgb(5, 5, 5);
-    border-right: 3px solid black;
+    /* border-right: 3px solid black; */
     color: black;
     background-color: rgb(255, 255, 255);
     height: 500px;
@@ -109,13 +110,13 @@ h3 {
     margin-bottom: 3%;
 }
 
-.rightworkcontent {
+.rightworkcontent:hover {
     width: 100%;
     /* border-top: 2px solid black; */
 }
 
-#rightworkcontent2 {
+#rightworkcontent2:hover {
     flex-direction: row;
-    width: 49.8%;
+    width: 49%;
     /* border-bottom: 4px solid black; */
 }

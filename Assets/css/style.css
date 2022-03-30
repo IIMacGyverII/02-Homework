@@ -1,6 +1,9 @@
 :root {
     max-width: 1500px;
 }
+body {
+    flex: content;
+}
 
 header {
     display: flex;
@@ -8,7 +11,7 @@ header {
     /* align-items: right; */
     /* padding: -10px; */
     background-color: rgb(119, 124, 150);
-    flex-direction: column;
+    /* flex-direction: column; */
     /* max-height: 10px; */
     /* border: 2px solid black; */
     max-width: 1500px;
@@ -55,7 +58,8 @@ h3 {
 }
 
 .head-img {
-    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: stretch;
     /* width: 100%; */
     /* height: 300px; */
 }
@@ -64,7 +68,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    width: 1500px;
+    max-width: 1500px;
     /* border: 2px solid blue; */
 }
 
@@ -126,3 +130,24 @@ h3 {
     width: 49%;
     /* border-bottom: 4px solid black; */
 }
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    section {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }

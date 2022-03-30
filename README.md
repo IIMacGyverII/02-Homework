@@ -6,4 +6,4 @@ Link to project: https://iimacgyverii.github.io/02-Homework/
 
 
 ![portfolio demo](https://raw.githubusercontent.com/IIMacGyverII/02-Homework/main/Assets/img/screenshot.png)
-![portfolio demo](./assets/img/page.gif)
+![portfolio demo](https://github.com/IIMacGyverII/02-Homework/raw/main/Assets/img/page.gif)

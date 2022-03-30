@@ -2,7 +2,7 @@
     max-width: 1500px;
 }
 body {
-    flex: content;
+    /* flex: content; */
 }
 
 header {

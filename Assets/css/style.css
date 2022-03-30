@@ -11,6 +11,7 @@ header {
     flex-direction: column;
     /* max-height: 10px; */
     /* border: 2px solid black; */
+    max-width: 1500px;
     height: 20px;
     width: 100vw;
 }
@@ -60,27 +61,32 @@ h3 {
 }
 
 #pageflexbox {
-    display:flex;
-    flex-wrap: stretch;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: left;
+    width: 1500px;
     /* border: 2px solid blue; */
 }
 
 .leftcolumn {
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 10px;
     border-right: 3px solid black;
+    width: 175px;
 }
 
 .leftcolumnflexbox {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     border: 2px 2px 0px 0px solid rgb(5, 5, 5);
     /* border-right: 3px solid black; */
     color: black;
     background-color: rgb(255, 255, 255);
     height: 500px;
-    padding: 0px 10px 10px 10px;
-    width: 200px;
+    /* padding: 0px 10px 10px 10px; */
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .leftcolumnflexbox h1 {
@@ -89,13 +95,13 @@ h3 {
 
 .leftcolumnflexbox h2 {
     font-size: 27pt;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .leftcolumnflexbox h3 {
     font-size: 27pt;
-    margin-top: 500px;
-    padding: 100;
+    margin-top: 400px;
+    /* padding: 100px; */
 }
 
 .rightcolumn {
